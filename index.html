@@ -1,1 +1,119 @@
-Hello World
+<!DOCTYPE HTML>
+<html manifest="offline.manifest">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+	<meta name="verify-v1" content="2hDRmk5riCsWd+uL6fW+KXSxu18r5I/V6HHDOiSZVHk=" />
+	<script src="http://maps.google.com/maps?file=api&amp;v=3&amp;sensor=false&amp;key=ABQIAAAAvnVMmpvHzdHJsTpchYSf7xRWeHBPjcXlD2byPDhcUvW1tGmRpBQ_PwVzxvcUy1xT0EIeh0W3qZcBPQ" type="text/javascript"> 
+	</script>
+	<link rel="stylesheet" href="files/css/menu.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="files/css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="files/css/forms.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="files/css/messages.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="files/css/join.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="files/css/status.css" type="text/css" media="screen" />
+
+	<link rel="icon" type="image/png" href="files/images/book.png" />
+
+		<script type="text/javascript" src="files/js/connections.js"></script>
+	<script type="text/javascript" src="files/js/hide-messgae.js"></script>
+	<script type="text/javascript" src="files/js/loading.js"></script>
+
+
+	<title>Treep - Home</title>
+
+</head>
+<body>
+<div id="page">
+		<div id="logo">
+			<a href="/test/" title="Treep" id="logo">treep.ro</a>
+		</div>
+		<div class="where" style="width:435px; height:106px; border:0px;"></div>
+		<!--<div id="rss">
+			<a href="/test/rss.xml" title="Subscribe to our RSS feed" >
+      		<p class="rss">Subscribe to our rss feed</p></a>
+		</div>
+		<div id="twitter">
+			<a href="http://twitter.com/Silviug" title="Follow me on twitter" target="_blank">
+			<p class="twitter">Follow me on twitter</p></a>
+		</div>-->
+		<div id="message"></div>
+		<div id="online"></div>
+		<div id="offline"></div>
+
+		<!--Menu starts here--> 		  
+		<div id="wrapper2">
+			<div id="categories">
+				<ul>
+				<li class="page_item_home"><a href="/test/" style="text-decoration: none">Home</a></li>
+				<li class="page_item add-ride"><a href="/test/add-ride.html" style="text-decoration: none">Add Ride</a></li>
+				<li class="login"><a href="#" style="text-decoration: none" onClick="document.getElementById('login-container').style.display='block';hideclass('login');showclass('go');">Login</a></li>
+				<li class="go"><a href="#" style="text-decoration: none" onClick="document.forms['post'].submit(); ">Login</a></li>
+				
+				</ul>
+			</div>
+		</div>
+				
+		<!--Join bubble starts here-->
+		<div class="join-container">
+			<div id="join-msg">
+				<div id="join-content">
+					<h2>Treep is the fun way to travel.</h2>
+					<p>It's free and fun! <a href="/test/learn-more.html">Learn more</a></p>
+				</div>
+				<div id="join-action">
+					<a class="ActionButt" href="/test/login.html"><strong>Join Treep</strong></a>
+				</div>
+			<a style="display: block;" onClick="hide('join-msg');hide('join-arrow');show('message','Welcome message closed');" id="join-close" title="Hide">X</a>
+			</div>
+			<--<div id="join-arrow"></div>
+		</div>    
+
+		<div class="top_blog">
+			<h2>TREEP</h2>
+			<div class="tim_text">
+				<div id="stylized">
+					<div id="start">
+						<form onsubmit="showAddress(); return false" action="#" name=form1>
+						<input id="search" size="25" type="text" value="Start Point" onblur=
+						"if (this.value == '') {this.value = 'Start Point';}" onfocus=
+						"if (this.value == 'Start Point') {this.value = '';}" /> <button type="submit">Go</button>
+						</form>
+					</div>
+
+					<div id="end">
+						<form onsubmit="showAddress(); return false" action="#" name=form2>
+						<input id="search2" size="25" type="text" value="End Point" onblur=
+						"if (this.value == '') {this.value = 'End Point';}" onfocus=
+						"if (this.value == 'End Point') {this.value = '';}" /> <button type="submit">Go</button>       
+						</form>
+					</div>
+
+					<div id="clear">
+						<button onClick="clearMarkers(); show('message','Map cleared');return false" action="#">Clear</button>
+					</div>
+				</div>
+
+        		<div id="error">
+					<noscript><b>JavaScript must be enabled in order for you to use GoogleMaps.</b>
+					</noscript>
+				</div>
+			</div>
+			<div class="tagcloud">&nbsp;
+			</div>
+		</div>
+		<div id="map">
+			<script type="text/javascript" src="files/js/loadmetowns.js?1""></script> 
+		</div>
+
+		<script type="text/javascript">
+			//<![CDATA[
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			//]]>
+		</script>  
+	</div> 	
+
+
+
+</body>
+</html>

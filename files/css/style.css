@@ -1,0 +1,254 @@
+/*remove rectangle when selecting a image/link*/
+:focus {
+    outline: 0;
+}
+
+body {
+	background:#fff;
+	font-size: 	 	70%; /* Resets 1em to 10px */
+	font-family: 	Arial, Georgia, Sans-Serif;
+	color: 		 	#292929;
+	text-align:  	center;
+	text-color:		#fff;
+	margin:		 	0;
+	padding:	 	0;
+	height:		    100%;
+	letter-spacing: 0.06em;
+    line-height:	1.5em;
+}
+h1 { font-size: 4em; text-align: center; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.3em; }
+
+#page {
+	background: transparent url('../images/hg-black.png') top left repeat-y;
+	height:		100%;
+	margin: 	0 auto;
+	padding: 	0px 0 0px 14px;
+	text-align: left;
+	width: 		1053px;
+	z-index:	2;
+	position:relative;
+}
+#logo {
+	background: transparent url('../images/treap.png') top left no-repeat;
+	display:	 block;
+	position:	 relative;
+    height:		 115px;
+    margin:		 0px 0 0px 0;
+    padding:	 0px 0px;
+    text-indent: -9999px;
+    width:		 325px;
+}
+
+#login-container {
+	position:relative;
+	top:-951px;
+	margin-left:739px;
+	z-index:4;
+	display:none;
+	color:#fff;
+}
+#login-links{
+	position:relative;
+	top:-12px;
+
+}
+a:link { 
+	color: #FFF;
+	}
+a:visited { 
+	color: #FFFFFF;
+	}
+a:hover { 
+	color: #FFF;
+	}
+a:active { 
+	color: #fff;
+}
+
+#map {
+	position: relative;
+	right:	  -383px;
+    top:	  -533px;
+    height:   352px;
+    width:	  599px;
+-moz-box-shadow: 0px 0px 20px #BFAAD5;
+}
+
+.content {
+    padding: 10px;
+}
+
+.where{
+	background:url('../images/going.png') 0 0 no-repeat;
+	top:	  -100px;
+	left:	  430px;
+	position: relative;
+	height:	  106px;
+	width:    435px;
+
+}
+
+
+#rss {
+	background: transparent url('../images/019.png') 0 0 no-repeat;
+	display:	  block;
+	border:		  none;
+	position:	  relative;
+	height:		  22px;
+	top:	     -228px;
+	left:		  1000px;
+    text-indent: -9999px;
+	width:		  22px;
+
+}
+
+#twitter {
+	background:transparent url('../images/twitter1.png') 0 0 no-repeat;
+	position:    relative;
+	border:		 none;
+	display:	 block;
+	height:		 18px;
+	top:		 -258px;
+	left:		 965px;
+	margin:		 0px 0 0px 0;
+    padding:	 0px 0px;
+	width:		 32px;
+    text-indent: -9999px;
+    
+}
+
+p{
+}
+
+p.rss {
+
+}
+
+p.twitter{
+}
+
+
+
+.top_blog {
+    background:repeat #B4DA35;
+    position:relative;
+    top:	-110px;
+    height:	 245px;
+    margin:  100px 0 100px 0;
+    padding: 25px 25px;
+    width:	 975px;
+
+}
+
+
+.top_blog .tim_text {
+    width:300px;
+}
+
+.tagcloud {
+    background: url('../images/tagcloud1.png') 0 0 no-repeat;
+    position:   relative;
+    right:     -330px;
+    top:       -300px;
+    height:     425px;
+    width:      659px;
+}
+
+
+#sq {
+    background: url('../images/tagcloud1.png') 0 0 no-repeat;
+	position:relative;
+	top:-90px;
+	left:170px;
+    height:     425px;
+    width:      659px;
+	z-index:25;
+
+}
+
+#static-map{
+position:relative;
+	top:35px;
+	left:30px;
+    height:   352px;
+    width:	  599px;
+	-moz-box-shadow: 0px 0px 20px #ACCEE3;
+}
+
+#content {
+    padding: 25px;
+}
+
+.center {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+a img {
+	border: none;
+}
+
+#error{
+	color:#d52300;
+	height:20px;
+	width:340px;
+}
+
+#logocontrol{
+	display:none !important;
+}
+
+.gmnoprint terms-of-use-link{
+	display:none !important;
+}
+
+#notfound {
+	    background: url('../images/omie.png') 0 0 no-repeat;
+	    display:block;
+	    height:500px;
+	    width:1000px;
+}
+
+#footer{
+	background: transparent url('../images/footer_bg.jpg') 0 0 repeat-x;
+	display:block;
+	height:250px;
+	position:relative;
+	right:-114px;
+	width:1025px;
+	text-indent:-900px;
+	}
+
+
+a.footer_link:link{color:#000000;text-decoration:underline;}
+a.footer_link:visited{color:#000000;text-decoration:underline;}
+a.footer_link:hover{color:#000;text-decoration:none;background:#c6da17;}
+a.footer_link:active{color:#FFF;text-decoration:none;background:#c6da17;}
+
+
+.terms-of-use-link{display:none;}
+span{ display:none;}
+
+#mail{
+	position:relative;
+	top:-100px;
+	left:-190px;
+}
+#mailno{
+	position:relative;
+	display:block;
+	top:-121px;
+	left:-210px;
+	color:#fff;
+}
+#mailno a, #mailno a:link{text-decoration:none;}
+#mailno a:hover{text-decoration:underline;}

@@ -1,0 +1,114 @@
+ul, ol {
+	line-height: 2.0em;
+}
+
+#wrapper2 {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px 0px 0px;
+	top:-94px;
+}
+
+#categories {
+	position:relative;
+	background-color: #3B3B3B;
+	width: 1025px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+	top:-74px;
+}
+
+#categories ul {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	margin-top: 10px;
+	padding-left: 10px;
+	display: block;
+}
+
+#categories li {
+	float: left;
+	list-style-image: none;
+	list-style: none;
+	margin-left: 0px;
+	margin-right: 10px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 10px;
+
+}
+
+#categories li a:link, #categories li a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#categories li a:hover, #categories li.page_item_home a,#categories li.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#categories .current-cat a:link, #categories .current-cat a:hover, #categories .current-cat a:visited {
+	color: #D52300;
+	background-color: #EAEAEA;
+	border: 1px solid #EAEAEA;
+}
+
+
+#categories li_login {
+	float: right;
+	list-style-image: none;
+	list-style: none;
+	margin-left: 770px;
+	margin-right: 10px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 10px;
+
+}
+
+#categories li_login a:link, #categories li_login a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#categories li_login a:hover, #categories li_login.page_item_home a,#categories li_login.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#categories .current-cat a:link, #categories .current-cat a:hover, #categories .current-cat a:visited {
+	color: #D52300;
+	background-color: #EAEAEA;
+	border: 1px solid #EAEAEA;
+}
+

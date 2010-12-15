@@ -1,0 +1,24 @@
+#user-photo-container{
+	position:relative;
+	top:-600px;
+	left:378px;
+	width:100px;
+	height:100px;
+	z-index:2;
+	cursor:pointer;
+}
+
+#photolink {
+	position:relative;
+	display:none;
+	z-index:3;
+	width:100px;
+	height:100px;
+	background:#fff;
+	top:-700px;
+	left:378px;
+	opacity:0.2;
+	cursor:pointer;
+
+}
+

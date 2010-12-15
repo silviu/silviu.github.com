@@ -1,0 +1,74 @@
+/* Style for various uses of tabs */
+
+#freedom {
+	position:relative;
+	top:-400px;
+	left:40px;
+	cursor:pointer;
+	-moz-user-select:none;
+	color:#000;
+		float:left;
+
+}
+#freedom a {
+	background:repeat #fff;
+	width:140px;
+	height:25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	opacity:0.6;
+	z-index:1;
+	margin-bottom:3px;
+	color:#000;
+	padding-left:5px;
+	padding-right:5px;
+	text-decoration:none;
+	float:left;
+}
+#freedom a:hover {
+	position:relative;
+	float:left;
+	opacity:1;
+	height:25px;
+	width:150px;
+	padding-left:5px;
+	padding-right:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+
+}
+#freedom .selected {
+
+	position:relative;
+	float:left;
+	left:-30px;
+	opacity:1;
+	height:25px;
+	width:150px;
+	padding-left:5px;
+	padding-right:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#ACCEE3;
+	box-shadow: 0px 0px 36px #ACCEE3;
+	-webkit-box-shadow: 0px 0px 16px #ACCEE3;
+	-moz-box-shadow: 0px 0px 36px #ACCEE3;
+
+}
+
+.tabContainer {
+  position:relative;
+  top:-480px;
+  left:198px;
+  width:600px;
+  height:349px;
+  z-index:25;
+}
+
+.tabContainer p {
+  position:relative;  
+  top:-141px;
+
+

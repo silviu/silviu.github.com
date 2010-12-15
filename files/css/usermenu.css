@@ -1,0 +1,79 @@
+ul, ol {
+	line-height: 2.0em;
+}
+
+#wrapper3 {
+	position:relative;
+	padding: 0px 0px 0px 0px;
+	top:10px;
+	z-index:30;
+}
+
+#user-menu {
+	position:relative;
+	background-color: #3B3B3B;
+	width: 435px;
+	font-size: 12px;
+	float: right;
+	display: block;
+	margin-bottom: 1px;
+	top:-118px;
+	right:28px;
+}
+
+#user-menu ul {
+	float: right;
+	margin: 0px 0px 0px 0px;
+	margin-top: 1px;
+	padding-left: 1px;
+	display: block;
+}
+
+#user-menu li {
+	float: left;
+	list-style-image: none;
+	list-style: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 1px;
+
+}
+
+#user-menu li a:link, #user-menu li a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#user-menu li a:hover, #user-menu li.page_item_home a,#user-menu li.current_page_item a {
+	background-color: #0099ff;
+	border: 1px solid #33ccff;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#user-menu .current-cat a:link, #user-menu .current-cat a:hover, #user-menu .current-cat a:visited {
+	color: #D52300;
+	background-color: #EAEAEA;
+	border: 1px solid #EAEAEA;
+}
+
+
+#user-menu .current-cat a:link, #user-menu .current-cat a:hover, #user-menu .current-cat a:visited {
+	color: #D52300;
+	background-color: #EAEAEA;
+	border: 1px solid #EAEAEA;
+}
+

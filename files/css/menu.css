@@ -1,0 +1,236 @@
+ul, ol {
+	line-height: 2.0em;
+}
+
+#wrapper2 {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px 0px 0px;
+	top:-35px;
+}
+
+#categories {
+	position:relative;
+	background-color: #3B3B3B;
+	width: 1025px;
+	font-size: 12px;
+	float: left;
+	display: block;
+	margin-bottom: 1px;
+	top:-73px;
+}
+
+#categories ul {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	margin-top: 1px;
+	padding-left: 1px;
+	display: block;
+}
+
+#categories li {
+	float: left;
+	list-style-image: none;
+	list-style: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 1px;
+
+}
+
+#categories li a:link, #categories li a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#categories li a:hover, #categories li.page_item_home a,#categories li.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+}
+
+#categories .current-cat a:link, #categories .current-cat a:hover, #categories .current-cat a:visited {
+	color: #D52300;
+	background-color: #EAEAEA;
+	border: 1px solid #EAEAEA;
+}
+
+
+#categories li.login {
+	position:relative;
+	float: right;
+	list-style-image: none;
+	list-style: none;
+	margin-left: 801px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 1px;
+	z-index:5;
+
+}
+
+#categories li_login a:link, #categories li_login a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+
+}
+
+#categories li_login a:hover, #categories li_login.page_item_home a,#categories li_login.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+
+}
+
+
+#categories li.go {
+	position:relative;
+	float: right;
+	list-style-image: none;
+	list-style: none;
+	margin-left: 801px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 1px;
+	z-index:5;
+	display:none;
+
+}
+
+#categories li_go a:link, #categories li_go a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+
+}
+
+#categories li_go a:hover, #categories li_go.page_item_home a,#categories li_go.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: left;
+
+}
+
+#categories li.account {
+	float: right;
+	list-style-image: none;
+	list-style: none;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 1px;
+	margin-left:694px;
+
+}
+
+#categories li_account a:link, #categories li_account a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: right;
+}
+
+#categories li_account a:hover, #categories li_account.page_item_home a,#categories li_account.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: right;
+}
+
+
+
+#categories li.logout {
+	float: right;
+	list-style-image: none;
+	list-style: none;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-bottom: 1px;
+}
+
+#categories li_logout a:link, #categories li_logout a:visited {
+	border: 1px solid #3B3B3B;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: right;
+}
+
+#categories li_logout a:hover, #categories li_logout.page_item_home a,#categories li_logout.current_page_item a {
+	background-color: #D52300;
+	border: 1px solid #FF4F2D;
+	color: #FFF;
+	padding-left: 11px;
+	padding-right: 11px;
+	display: block;
+	height: 25px;
+	padding-top: 2px;
+	float: right;
+}
+
+
+#categories .current-cat a:link, #categories .current-cat a:hover, #categories .current-cat a:visited {
+	color: #D52300;
+	background-color: #EAEAEA;
+	border: 1px solid #EAEAEA;
+}
+#secure {
+	background: transparent url('../images/lock1.png') top left no-repeat;
+    position:relative;
+    display:block;
+    height:16px;
+    width:16px;
+    top:-144px;
+    left:940px;
+    margin-top:-16px;
+    z-index:1;
+}

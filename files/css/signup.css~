@@ -1,0 +1,83 @@
+
+ .formContainer
+        {
+        	background:url('../images/new-signup.png') 0 0 repeat-y;
+        	position:relative;
+        	top:-1350px;
+        	left:165px;
+        	border:none;
+        	padding:30px;
+        	width: 600px;
+        	height:340px;
+        }
+#shadow1 {
+background:url('../images/rr.png') 0 0 no-repeat;
+
+position:relative;
+padding:250px;
+left:790px;
+top:-42px;
+width:1000px;
+
+
+}
+
+#shadow2 {
+background:url('../images/bt-shadow.png') 0 0 no-repeat;
+
+position:relative;
+padding:350px;
+left:193px;
+top:-172px;
+width:1000px;
+
+
+}
+        
+        .rowContainer
+        {
+        	width:100%;
+        	overflow:hidden;
+        	padding-bottom:10px;
+        	height:37px;
+        	
+        }
+        .rowContainer label
+        {
+        	width:140px;
+        	float:left;
+        	color: #015388;
+        	font-weight:bold;
+        	padding:7px;
+        }
+        .rowContainer input[type="text"]
+        {
+        	width:200px;
+        }
+        .tooltipContainer
+        {
+        	height:16px;
+        	font-size:11px;
+        	color: #015388;
+        	display:none;
+        	float:none;
+        	background-position:left center;
+        	padding:-7px 20px;
+        	padding-left:10px;
+        }
+        .info
+        {
+        	background-image:url('../images/icons/information.png') no-repeat;
+
+        }
+        .error
+        {
+        	background-image:url('../images/icons/error.gif');
+        	color: #d52300;
+
+        }
+        #content {
+        padding: 70px;
+        padding-top:-70px;
+        }
+       

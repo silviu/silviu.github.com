@@ -1,0 +1,87 @@
+#join-container{
+	margin:11px 0 -15px 0;
+	position: relative;
+	top:-99px;
+	margin-top:-100px;
+	visibility:hidden;
+
+}
+#join-msg{
+	position:relative;
+	float:left;
+	padding:12px 170px 12px 14px;
+	background:#e0ebf7;
+	top:-99px;
+	margin-top:-59px;
+	visibility:hidden;
+}
+#join-content{
+	float:left;
+}
+#join-content h2{
+	margin:0 0 2px;
+	font-size:13px;
+	font-weight:bold;
+}
+#join-content p{
+	margin:0;
+	font-size:13px;
+	color:#282828;
+}
+#join-action{
+	position:absolute;
+	top:13px;
+	right:20px;
+	width:130px;
+	float:left;
+	text-align:center;
+}
+#join-action .ActionButt{
+	display:block;
+	padding:8px;
+	background:#BED813  repeat-x 0 -21px;-moz-border-radius:4px;-webkit-border-radius:4px;
+	font-size:13px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}
+#join-action .ActionButt:hover{
+	background:#292929;
+	color:#fff;
+}
+#join-action .ActionButt:active{
+	background:#0054bd;
+}
+#join-action p.button-caption{
+	margin:4px 0 0;
+	font-size:10px;
+	color:#666;
+}
+#join-close{
+	display:none;
+	position:absolute;
+	top:4px;
+	right:4px;
+	width:13px;
+	height:13px;
+	background:url(../images/dismiss_x_small.png) no-repeat 0 0;
+	text-decoration:none;
+	text-indent:-999em;
+}
+#join-close:hover{
+	background-position:0 -26px;
+}
+#join-arrow{
+	width:21px;
+	height:10px;
+	clear:both;
+	margin-left:23px;
+	background:url(../images/blue_arrow_down.gif) no-repeat 0 0;
+	position:relative;
+	top:-100px;
+	margin-bottom:-43px;
+	z-index:1;
+	visibility:hidden;
+}
+
+

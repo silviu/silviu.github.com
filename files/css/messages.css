@@ -1,0 +1,20 @@
+#message {
+	background:none repeat scroll 0 0 #B4DA35;
+	display:none;
+	position:relative;
+	left:445px;
+	top:-80px;
+	color:#000000;
+	text-align:center;
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	float:left;
+	z-index:1;
+	margin-top:-25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #FFF;
+}

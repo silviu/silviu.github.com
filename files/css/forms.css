@@ -1,0 +1,42 @@
+/* ----------- stylized ----------- */
+	#stylized{
+		
+	}
+	#stylized h1 {
+		font-size:14px;
+		font-weight:bold;
+		margin-bottom:8px;
+	}
+	#stylized label{
+		display:block;
+		font-weight:bold;
+		text-align:right;
+		width:140px;
+		float:left;
+	}
+	#stylized .small{
+		color:#666666;
+		display:block;
+		font-size:11px;
+		font-weight:normal;
+		text-align:right;
+		width:140px;
+	}
+	#stylized input{
+		font-size:10px;
+		padding:4px 2px;
+		border:solid 1px #aacfe4;
+		margin:2px 0 20px 0px;
+	}
+	#stylized button{ 
+		clear:both;
+		margin-left:15px;
+		padding:4px 2px;
+		width:45px;
+		height:25px;
+		border:solid 1px #aacfe4;
+		text-align:center;
+		font-size:12px;
+		margin:2px 0 20px 0px;
+	}
+
